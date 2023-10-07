@@ -28,7 +28,7 @@
         <tr>
             <td>{{ $d["nombre"] }}</td>
             <td>{{ $d["edad"] }}</td>
-            <td>{{ $d["turnos"] }}</td>
+            <td>{{ $d["turno"] }}</td>
         </tr>
         @endforeach
     </table>

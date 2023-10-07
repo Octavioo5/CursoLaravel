@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\bienvenidoController;
+use App\Http\Controllers\bievenidoController;
 /*
 
 
@@ -19,4 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 
 });
-Route::get('/bienvenido',[bienvenidoController::class,'bievenido']);
+Route::get('/bienvenido',[bievenidoController::class,'bienvenido']);
