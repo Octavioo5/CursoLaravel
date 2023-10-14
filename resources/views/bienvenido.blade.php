@@ -18,7 +18,7 @@
         @endforeach
     </ul>
     <h2>Datos</h2>
-    <table>
+    <table border="1">
         <tr>
             <td>Nombre</td>
             <td>Edad</td>

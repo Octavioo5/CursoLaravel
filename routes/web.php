@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\bievenidoController;
+use App\Http\Controllers\alumnosController;
 /*
 
 
@@ -20,3 +21,6 @@ Route::get('/', function () {
 
 });
 Route::get('/bienvenido',[bievenidoController::class,'bienvenido']);
+
+Route::get('/alumnos',[alumnosController::class,'alumnos']);
+
