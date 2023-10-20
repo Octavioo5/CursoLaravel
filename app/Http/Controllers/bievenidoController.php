@@ -21,4 +21,7 @@ class bievenidoController extends Controller
         return view('bienvenido', compact('nombre','alumnos','datos'));
 
     }
+    public function inicio(){
+        return view('inicio');
+    }
 }
